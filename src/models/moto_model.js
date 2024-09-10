@@ -12,12 +12,14 @@ const motoSchema = new Schema({
     required: true,
   },
   modelo: {
-    type: String
+    type: String,
   },
   cilindrada: {
-    type: Number
+    type: Number,
   },
-
+  peso: {
+    type: Number,
+  },
 });
 
 const Moto = db.model("Moto", motoSchema);
