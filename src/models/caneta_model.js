@@ -13,4 +13,6 @@ const canetaSchema = new Schema({
   },
 });
 
-const Caneta = db.model("Caneta", canetaSchema)
+const Caneta = db.model("Caneta", canetaSchema);
+
+module.exports = Caneta;
