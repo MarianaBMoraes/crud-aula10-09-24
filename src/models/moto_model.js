@@ -5,7 +5,7 @@ const Schema = db.Schema;
 
 const motoSchema = new Schema({
   marca: {
-    type: String,
+    type: Schema.Types.String,
     required: true
   },
   cor: {

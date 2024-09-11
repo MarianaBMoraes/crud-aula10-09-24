@@ -1,4 +1,5 @@
 const express = require("express");
+const mongoose = require("../src/db")
 const aeroporto_router = require("./routes/aeroporto_route.js");
 const caneta_router = require("./routes/caneta_route.js");
 const moto_router = require("./routes/moto_route.js");
@@ -6,6 +7,7 @@ const refrigerante_router = require("./routes/refrigerante_route.js");
 
 const app = express();
 const port = 5000;
+mongoose();
 
 app.use(express.json());
 // app.use(cep_endereco) // Middleware de uso global
