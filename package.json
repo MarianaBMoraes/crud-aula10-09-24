@@ -7,7 +7,7 @@
   "devDependencies": {
     "nodemon": "^3.1.4"
   },
-  "name": "crud-solto",
+  "name": "crud-aula10-09-24",
   "version": "1.0.0",
   "description": "?",
   "main": "src/index.js",

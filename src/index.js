@@ -1,8 +1,8 @@
 const express = require("express");
-const aeroporto_router = require("./routes/aeroporto.js");
-const caneta_router = require("./routes/caneta.js");
-const moto_router = require("./routes/moto.js");
-const refrigerante_router = require("./routes/refrigerante.js");
+const aeroporto_router = require("./routes/aeroporto_route.js");
+const caneta_router = require("./routes/caneta_route.js");
+const moto_router = require("./routes/moto_route.js");
+const refrigerante_router = require("./routes/refrigerante_route.js");
 
 const app = express();
 const port = 5000;
